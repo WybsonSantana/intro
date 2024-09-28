@@ -10,8 +10,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>Open Source Education <span className={styles.heroTitleOS}>with OpenSauced</span></h1>
-        <p className={styles.heroSubtitle}>Empowering Your Open Source Journey: From First Contribution to Project Leadership</p>
+        <h1 className={styles.heroTitle}>Educação em código aberto <span className={styles.heroTitleOS}>com a OpenSauced</span></h1>
+        <p className={styles.heroSubtitle}>Capacitando sua jornada no código aberto: da primeira contribuição à liderança de projetos!</p>
       </div>
     </header>
   );
@@ -19,26 +19,26 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout title="Home" description="Welcome to OpenSauced Education Path">
+    <Layout title="Início" description="Bem-vindo(a) à trilha educacional da OpenSauced!">
       <HomepageHeader />
       <main className={styles.main}>
         <div className="container">
           <div className={styles.cards}>
             <div className={styles.card}>
               <div className={styles.cardContent}>
-                <h3>Intro to Open Source Course</h3>
-                <p>This course is designed to equip you with the skills and knowledge you need to contribute to open source projects. It offers engaging exercises to help you begin your journey towards becoming a successful contributor, and even provides an opportunity to get your first pull request merged.</p>
+                <h3>Curso de introdução ao open source</h3>
+                <p>Este curso foi desenvolvido para capacitar você com as habilidades e conhecimentos necessários para contribuir com projetos de código aberto. Ele oferece exercícios práticos e envolventes para ajudar no início da sua jornada rumo a se tornar um(a) contribuidor(a) de sucesso, além de proporcionar a oportunidade de ter seu primeiro pull request aceito.</p>
                 <Link className={styles.cardLink} to="/intro-to-oss">
-                  Start the Intro to Open Source Course
+                Começar o curso de introdução ao código aberto
                 </Link>
               </div>
             </div>
             <div className={styles.card}>
               <div className={styles.cardContent}>
-                <h3>Becoming a Maintainer</h3>
-                <p>This course is designed to aid people who are interested in becoming open source project maintainers. It guides you through maintainers' best practices and provides resources and tools that help maintainers perform their tasks. This course is equipped with a tutorial for you to get practical.</p>
+                <h3>Tornando-se um mantenedor</h3>
+                <p>Este curso foi desenvolvido para ajudar pessoas interessadas em se tornar mantenedoras de projetos de código aberto. Ele orienta você pelas melhores práticas de manutenção e fornece recursos e ferramentas que auxiliam os mantenedores a desempenharem suas funções. O curso também conta com um tutorial para que você possa aplicar os conhecimentos na prática.</p>
                 <Link className={styles.cardLink} to="/becoming-a-maintainer">
-                  Start the Becoming a Maintainer Course
+                Começar o curso tornando-se um mantenedor
                 </Link>
               </div>
             </div>
